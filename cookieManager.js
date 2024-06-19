@@ -2,7 +2,7 @@
 
 require('dotenv').config(); // Ensure .env is loaded
 
-let cookies = process.env.DEEPL_COOKIES ? process.env.DEEPL_COOKIES.split(',') : [07fcd9ff-6b42-4cc9-bcb9-5f025452e146];
+let cookies = process.env.DEEPL_COOKIES ? process.env.DEEPL_COOKIES.split(',') : [];
 let invalidCookies = [];
 let currentCookieIndex = 0;
 
